@@ -2,7 +2,7 @@
 alt = float(input('Digite sua altura(m): '))
 pes = float(input('Digite seu peso(Kg): '))
 
-#calcula o IMC456
+#calcula o IMC
 imc = pes / (alt**2)
 
 #condicionais que mostrarão o resultado
