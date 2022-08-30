@@ -23,7 +23,7 @@ es = int(input('Selecione: '))
 # 2 - papel
 # 3 - tesoura
 
-#condições que exibem o resultado
+#condições que geram o resultado
 if es != 1 and es != 2 and es != 3:
     print('-=' * 15)
     print('\033[1;31mOpção Inválida')

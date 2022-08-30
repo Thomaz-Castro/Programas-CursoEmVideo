@@ -1,12 +1,12 @@
 #coleta os dados do usuário
-alt = float(input('Digite sua altura(m): '))
-pes = float(input('Digite seu peso(Kg): '))
+alt = float(input('Digite sua altura: '))
+pes = float(input('Digite seu peso: '))
 
 #calcula o IMC
 imc = pes / (alt**2)
 
 #condicionais que mostrarão o resultado
-if imc < 18.5:
+if imc < 18.5:cv
     print('Seu IMC é {:.3f}'.format(imc))
     print('Você está ABAIXO DO PESO')
 elif imc >= 18.5 and imc < 25:
