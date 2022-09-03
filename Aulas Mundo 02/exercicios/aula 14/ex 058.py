@@ -13,8 +13,12 @@ sleep(3)
 while choice != n:
     choice = int(input('Tente adivinhar o numero entre 0 e 10: '))
     if choice != n:
+        if choice > n:
+            print('É menos..')
+        elif choice < n:
+            print('É mais...')
         tent += 1
-        print('Você errou, tente novamente!\n')
+        print('Tente novamente!\n')
         print('\033[1;33m-=-\033[m' * 15)
         sleep(0.1)
 
