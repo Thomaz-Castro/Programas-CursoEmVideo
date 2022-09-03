@@ -11,8 +11,8 @@ while ch != 9999:
     if ch != 999:
         anp.append(ch)
     while True:
-        cnt = str(input('Quer adicionar mais um numero? [S/N]: ')).upper()
-        if cnt.isalpha() == True and cnt in 'SsNn':
+        cnt = str(input('Quer adicionar mais um numero? [S/N]: ')).upper().strip()[0]
+        if cnt.isalpha() == True and cnt in 'SN':
             break
         else:
             print('Digite uma opção valida!\n')
